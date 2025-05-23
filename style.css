@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.clock-container {
+  text-align: center;
+}
+
+.time {
+  font-size: 15rem;
+  color: #00BFFF; /* Blue digits */
+}
+
+.label {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 3.25rem;
+  margin-top: 10px;
+  color: #00BFFF;
+}
+
+@media (max-width: 600px) {
+  .time {
+    font-size: 3rem;
+  }
+
+  .label {
+    font-size: 1.2rem;
+  }
+
+  .date {
+    font-size: 1rem;
+  }
+}
